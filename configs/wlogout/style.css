@@ -11,56 +11,72 @@ window {
 button {
     background-color: #11111b;
     border-style: solid;
+    border-color: transparent;    
     border-radius: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 15%;
     margin: 15px;
+    outline: none;                 
+    box-shadow: none;
 }
 
 button:hover,
+button:focus,
 button:active {
     background-color: #cdd6f4;
 }
 
 #lock {
-    background-image: url("icons/lock.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/lock.png");
 }
-#lock:hover {
-    background-image: url("icons/lock-hover.png");
+#lock:hover,
+#lock:focus,
+#lock:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/lock-hover.png");
 }
 
 #logout {
-    background-image: url("icons/logout.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/logout.png");
 }
-#logout:hover {
-    background-image: url("icons/logout-hover.png");
+#logout:hover,
+#logout:focus,
+#logout:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/logout-hover.png");
 }
 
 #suspend {
-    background-image: url("icons/sleep.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/sleep.png");
 }
-#suspend:hover {
-    background-image: url("icons/sleep-hover.png");
+#suspend:hover,
+#suspend:focus,
+#suspend:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/sleep-hover.png");
 }
 
 #shutdown {
-    background-image: url("icons/power.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/power.png");
 }
-#shutdown:hover {
-    background-image: url("icons/power-hover.png");
+#shutdown:hover,
+#shutdown:focus,
+#shutdown:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/power-hover.png");
 }
 
 #reboot {
-    background-image: url("icons/restart.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/restart.png");
 }
-#reboot:hover {
-    background-image: url("icons/restart-hover.png");
+#reboot:hover,
+#reboot:focus,
+#reboot:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/restart-hover.png");
 }
 
 #exit {
-    background-image: url("icons/restart.png");
+    background-image: url("/home/g/.config/assets/wlogout/assets/restart.png");
 }
-#exit:hover {
-    background-image: url("icons/restart-hover.png");
+#exit:hover,
+#exit:focus,
+#exit:active {
+    background-image: url("/home/g/.config/assets/wlogout/assets/restart-hover.png");
 }
